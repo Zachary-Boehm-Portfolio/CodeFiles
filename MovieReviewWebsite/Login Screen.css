@@ -1,0 +1,114 @@
+body{
+	background-color: #221f1f;
+	height: auto;
+	background-size: 150% 150%;
+}
+h1{
+	text-align: center;
+	color: #e50914;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+#h21{
+	color: #e50914;
+	text-align: center;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+#h22{
+	color: #e50914;
+	text-align: center;
+	padding-top: 5px;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+#logging{
+	color: #e50914;
+	background-color: #2B2727;
+	border: none;
+	text-align: center;
+	margin-left: 220px;
+	margin-top: 15px;
+	font-weight: bold;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	Opacit: 1;
+}
+#Success{
+	display: inline-block;
+	background-color: #2D2929;
+	position: relative;
+	width: 500px;
+	height: 200px;
+	vertical-align: middle;
+	margin-left: 40%;
+	margin-top: 20%;
+	opacity: .8;
+	z-index: 9;
+}
+p{
+	font-weight:bold;
+	color:yellow;
+	text-shadow: 3px 3px black;
+	font-size:20pt;
+}
+.form-account {
+  display: none;
+  margin-top: 8%;
+  margin-left: 36%;
+  margin-right: 36%;
+  max-width: 500px;
+  min-width: 500px;
+  border: none;
+  z-index: 9;
+}
+.form-login {
+  display: block;
+  margin-top: 8%;
+  margin-left: 36%;
+  max-width: 500px;
+  min-width: 500px;
+  border: none;
+  z-index: 9;
+}
+.form-container {
+  max-width: 500px;
+  padding: 10px;
+  background-color: #282424;
+  opacity: .9;
+}
+.form-container input[type=text], .form-container input[type=password]{
+  width: 94%;
+  height: 50px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  background-color: #3A3434;
+  opacity: 1;
+}
+.form-container input[type=text]:focus, .form-container input[type=password]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+.form-container .btn {
+  background-color: #e50914;
+  color: #221f1f;
+  padding: 16px 20px;
+  border: none;
+  font-weight:bold;
+  font-size: 15pt;
+  cursor: pointer;
+  width: 100%;
+  height: 80px;
+  margin-bottom:10px;
+}
+.form-container .back {
+  background-color: #e50914;
+}
+.form-container .login {
+	background-color: #e50914;
+}
+.form-container .btn:hover, .open-button:hover {
+  opacity: .8;
+}
+label{
+	color: #AA060E;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}

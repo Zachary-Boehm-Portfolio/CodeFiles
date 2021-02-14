@@ -1,0 +1,87 @@
+body{
+	background: linear-gradient(to top, #221f1f 80%, black);
+}
+.cover{
+	width: 366px;
+	height: 526px;
+}
+.cover:hover {
+	opacity: .8;
+}
+h1{
+	text-align:center;
+	color:#e50914;
+}
+#video{
+	width: 1400px;
+	height: 800px;
+	margin-left:250px;
+	margin-top: 30px;
+	
+}
+#MName{
+	margin-left: 140px;
+	margin-top: 30px;
+}
+#backButton{
+	
+	width: 30px;
+	height: 30px;
+}
+#BackButton{
+	background:none;
+	border:none;
+	margin-left: 70px;
+}
+#BackButton:hover{
+	opacity: .5;
+}
+.category{
+	background: none;
+	padding-left: 10px;
+}
+#loginbutton{
+	margin-left: 250px;
+	padding-bottom: 20px;
+	border:none;
+	height: 30px;
+	color: #e50914;
+	background:none;
+	font-weight:bold;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 15pt;
+}
+#loginbutton:hover{
+	opacity: .6;
+}
+.poster{
+	display:block;
+	background-color: #725B5B;
+	width: 366px;
+	height: 526px;
+}
+.cat{
+	margin-left: 250px;
+	color: black;
+	font-weight: bold;
+	font-size: 10pt;
+}
+.content{
+	margin-left: 30px;
+	margin-right: 30px;
+	color: #BFBFBF;
+	font-weight: bold;
+	font-size: 25pt;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+#tablesum{
+	margin-top: 100px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #221f1f;
+	border:none;
+}
+.head{
+	color: #e50914;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}

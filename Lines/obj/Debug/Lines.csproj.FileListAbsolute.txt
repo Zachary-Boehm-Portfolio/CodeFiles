@@ -1,0 +1,10 @@
+D:\C#\Lines\bin\Debug\Lines.exe.config
+D:\C#\Lines\bin\Debug\Lines.exe
+D:\C#\Lines\bin\Debug\Lines.pdb
+D:\C#\Lines\obj\Debug\Lines.csprojAssemblyReference.cache
+D:\C#\Lines\obj\Debug\Lines.Form1.resources
+D:\C#\Lines\obj\Debug\Lines.Properties.Resources.resources
+D:\C#\Lines\obj\Debug\Lines.csproj.GenerateResource.cache
+D:\C#\Lines\obj\Debug\Lines.csproj.CoreCompileInputs.cache
+D:\C#\Lines\obj\Debug\Lines.exe
+D:\C#\Lines\obj\Debug\Lines.pdb

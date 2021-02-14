@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+<title>Movie Review (login)</title>
+<link href="Login Screen.css" rel="stylesheet" type="text/css" />
+<script src="LoginScreen.js" type="text/javascript"></script>
+</head>
+	
+<body>
+<!-- Account Creation Form -->
+<div class="form-account" id="form-account">
+  <form action="Create Account.php" class="form-container" method="post"  name="formAccount">
+    <h1><img src="https://fontmeme.com/permalink/200303/db1973cb23f7b87805926260b9da7d23.png" alt="netflix-font" border="0"></h1>
+	<!-- Username input -->
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" id="username1" name="username" class="username" required>
+	<!-- Password input-->
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" id="psw1" name="psw" class="psw" required>
+	 <!-- Confirm Password input-->
+	<label for="cpsw"><b>Confirm Password</b></label>
+    <input type="password" placeholder="Confirm Password" id="cpsw" name="cpsw" required>
+	<!-- Create Account button submits the form by calling createAccount() from javascript file-->
+    <button type="button" class="btn" onClick="createAccount()">Create Account</button>
+	  <!-- Login button takes user back to login window-->
+	<button type="button" class="btn login" onclick="loginPage()">login</button>
+  </form>
+</div>
+<!-- Login Form -->
+<div class="form-login" id="form-login">
+  <form action="Home Page.php" class="form-container" method="post" name="formLogin">
+    <h1><img src="https://fontmeme.com/permalink/200303/8436c32377ea1e6f2fcc375a3f5744ff.png" alt="netflix-font" border="0"></h1>
+	<!-- Username input -->
+    <label for="username2"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username2" class="username" id="username2" required>
+	<!-- Password input -->
+    <label for="psw2"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw2" class="psw" id="psw2" required>
+	<!-- Login button submits the form by call login() from javascript file-->
+    <button type="button" class="btn" onClick="login()">Login</button>
+	  <!-- Create Account button take user to the create account window -->
+	<button type="button" class="btn back" onclick="back()">Create Account</button>
+  </form>
+</div>
+	
+</body>
+</html>

@@ -1,0 +1,5 @@
+﻿  PlayerInterface.cpp
+C:\Users\dorkd\Desktop\RPGInventory\Inventory.h(53,1): warning C4267:  'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\dorkd\Desktop\RPGInventory\Inventory.h(52): message :  while compiling class template member function 'unsigned int Inventory<const Item>::getSize(void) const'
+C:\Users\dorkd\Desktop\RPGInventory\Character.h(44): message :  see reference to class template instantiation 'Inventory<const Item>' being compiled
+  RPGInventory.vcxproj -> C:\Users\dorkd\Desktop\RPGInventory\x64\Debug\RPGInventory.exe
