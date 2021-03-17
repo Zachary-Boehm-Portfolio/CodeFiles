@@ -5,7 +5,7 @@ itch.io page: https://tomcat6000.itch.io
 
 ADreamToRemember-Scripts:
 
-  -This foulder is full of all script files from the game _A Dream to Remember._
+    -This foulder is full of all script files from the game _A Dream to Remember._
   
 JavaRayTrace
 
@@ -47,6 +47,6 @@ RPGInventory
     
 SmallWorld-Scripts
 
-  -This folder is full of script files. These scripts are part of a project of mine to learn 3D game development in the Unity game engine.
+    -This folder is full of script files. These scripts are part of a project of mine to learn 3D game development in the Unity game engine.
   
-  -This 3D game has development longs that show some steps along my learning process, and these development videos can be found on my itch.io page.
+    -This 3D game has development longs that show some steps along my learning process, and these development videos can be found on my itch.io page.
