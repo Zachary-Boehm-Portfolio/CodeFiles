@@ -1,4 +1,4 @@
-# Code Folder Description
+# Code Folder Descriptions
 
 Portfolio Website: https://dorkd2000.wixsite.com/portfolio
 
